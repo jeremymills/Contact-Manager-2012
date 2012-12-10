@@ -1,4 +1,4 @@
-Fanshawe College: INFO-3106, LAMP 1
+Jeremy, Insu, Carlie: Contact Manager
 -----------------------------------
 
 This will be our contact manager project for winter 2012/2013
