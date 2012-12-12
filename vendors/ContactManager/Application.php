@@ -15,8 +15,15 @@ namespace ContactManager
         private static $_config = array();
         private static $_db = null;
         
+        private static $_has_init = false;
+        
         public static function init(array $init_config = array())
         {
+            if( self::$_has_init )
+            {
+                return;
+            }
+            
             self::$_init_config = $init_config;
             
             if( !isset(self::$_init_config['config_file']) )
@@ -38,6 +45,8 @@ namespace ContactManager
             }
             
             self::$_db = Db::instance(self::$_config['database']);
+            
+            self::$_has_init = true;
         }
         
         public static function shutdown()
