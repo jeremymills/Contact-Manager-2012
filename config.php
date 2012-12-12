@@ -1,19 +1,28 @@
 <?php
 
+/**
+ * @ignore
+ */
 defined('IN_APPLICATION') or exit;
 
-/*
- * Return array for mySQL injection
- *
- *Change db_host to your mysql host name
- *Change db_user to your mysql user name
- *Change db_pass to your mysql password
- *Change db_name to your mysql database name
+/**
+ * Configuration array of details
  */
-
 return array(
-	'db_host' => '127.0.0.1',
-	'db_user' => 'root',
-	'db_pass' => 'password',
-	'db_name' => 'lamp1_project2_jjrm'
-);
+    /**
+     */
+    'timezone' => 'America/Toronto',
+    
+    /**
+     * Connection details for database connection using the
+     * Doctrine library package.
+     */
+    'database' => array(
+        'dbname'    => '',
+        'user'      => '',
+        'password'  => '',
+        'host'      => 'localhost',
+        'driver'    => 'pdo_mysql'
+    )
+    
+); /* end array( */
