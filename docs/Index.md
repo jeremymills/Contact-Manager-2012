@@ -4,5 +4,5 @@ Here you will find a list of links and other resources to assist in the deployme
 
 ## Other
 
-* [Development TODO](#)
-* [Third Party Documentation](#)
+* [Development TODO](https://github.com/jeremymills/Contact-Manager-2012/blob/master/docs/TODO.md)
+* [Third Party Documentation](https://github.com/jeremymills/Contact-Manager-2012/blob/master/docs/Third_Party.md)
