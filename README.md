@@ -10,8 +10,8 @@ Contact Manager is an open source web application built to easily manage contact
 * **Bio:** [to be filled in]
 
 ### Insu Mun
-* **Email:** [to be filled in]
-* **Bio:** [to be filled in]
+* **Email:** [mis8680@gmail.com]
+* **Bio:** [student]
 
 ### Jeremy Mills
 * **Email:** [jeremy.mills89@gmail.com]
