@@ -14,5 +14,5 @@ Contact Manager is an open source web application built to easily manage contact
 * **Bio:** [to be filled in]
 
 ### Jeremy Mills
-* **Email:** [to be filled in]
-* **Bio:** [to be filled in]
+* **Email:** [jeremy.mills89@gmail.com]
+* **Bio:** [student]

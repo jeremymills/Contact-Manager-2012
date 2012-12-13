@@ -51,7 +51,10 @@ namespace ContactManager
         
         public static function shutdown()
         {
-            
+            if( null !== self::$_db ) {
+				self::$_db->close();
+			}
+			self::$_db = null;
         }
         
         public static function error_handler($errno, $errstr, $errfile, $errline, array $context = array())
